@@ -1,4 +1,5 @@
 const jobsService = require('./jobs.service');
+const authService = require('../common/auth.service');
 const express = require('express');
 const router = express.Router();
 
